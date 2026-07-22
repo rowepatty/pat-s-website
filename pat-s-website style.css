@@ -91,4 +91,38 @@ body {
     font-style: italic;
 }
 
+.blog-list-container {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    gap: 0px;
+    flex-direction: column;
+}
+
+.blog-list {
+    width: 60%;
+    padding: 20px;
+    margin-inline: auto;
+    max-width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    justify-content: center;
+}
+
+.blog-item {
+    min-width: 60%;
+}
+
+.blog-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* * { outline: 1px solid red; } */
