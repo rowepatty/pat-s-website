@@ -8,7 +8,8 @@
     display: flex;
     gap: 0px;
     justify-self: left;
-    position: relative;
+    position: sticky;
+    top: 0;
     align-items: center;
 }
 
